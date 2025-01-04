@@ -6,13 +6,22 @@ const Button = ({
   href,
   imgPath,
   text,
+  target,
+  referrerPolicy,
 }: {
   href: string;
   imgPath: string;
   text: string;
+  target?: "_blank" | undefined;
+  referrerPolicy?: "no-referrer" | undefined;
 }) => {
   return (
-    <Link href={href} className="w-44 relative group">
+    <Link
+      href={href}
+      className="w-44 relative group"
+      target={target}
+      referrerPolicy={referrerPolicy}
+    >
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <h5 className="gradient-neptune group-hover:text-orange">{text}</h5>
       </div>
