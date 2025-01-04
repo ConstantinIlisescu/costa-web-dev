@@ -8,9 +8,22 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "475px",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        neptune: "#789BA9",
+        orange: "#D96E66",
+        purple: "#8587B0",
+        gray: "#8F8F95",
+        black: {
+          "100": "#37374A",
+          "200": "#20212D",
+        },
+        white: {
+          "100": "#F1FBFF",
+          "200": "#D3E5ED",
+        },
       },
     },
   },
