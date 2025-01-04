@@ -4,13 +4,13 @@ import React from "react";
 
 const Button = ({
   href,
-  imgPath,
+  imgPath = "/button-border.png",
   text,
   target,
   referrerPolicy,
 }: {
   href: string;
-  imgPath: string;
+  imgPath?: string;
   text: string;
   target?: "_blank" | undefined;
   referrerPolicy?: "no-referrer" | undefined;

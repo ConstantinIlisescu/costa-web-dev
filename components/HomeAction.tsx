@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const HomeAction = () => {
   return (
-    <section id="home" className="relative screen-container">
+    <section className="relative screen-container">
       <Image
         src="/call-to-action.png"
         alt="Laptop next to a white rustic cup and a green plant, on a white table"
@@ -27,16 +27,13 @@ const HomeAction = () => {
               My code
             </h2>
           </div>
-          <p className="max-w-xs">
-            {
-              "I'm passionate about empowering small businesses thrive in the digital age. My goal is to help unlock your potential, connect with your audience, and grow in a rapidly evolving digital landscape."
-            }
+          <p className="max-w-sm">
+            I&apos;m passionate about empowering small businesses thrive in the
+            digital age. My goal is to help you unlock your potential, connect
+            with your audience, and grow in a rapidly evolving digital
+            landscape.
           </p>
-          <Button
-            href="#projects"
-            text="FIND HOW"
-            imgPath="/button-border.png"
-          />
+          <Button href="#projects" text="FIND HOW" />
         </div>
       </div>
     </section>

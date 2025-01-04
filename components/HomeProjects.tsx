@@ -28,7 +28,6 @@ const HomeProjects = () => {
               <Button
                 href={project.link}
                 text="View Live Website"
-                imgPath="/button-border.png"
                 target="_blank"
                 referrerPolicy="no-referrer"
               />
