@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${quattrocentoSans.variable} ${mulish.variable} antialiased`}
+        className={`${quattrocentoSans.variable} ${mulish.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>

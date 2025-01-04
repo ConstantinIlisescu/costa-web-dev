@@ -19,6 +19,7 @@ export default {
         black: {
           "100": "#37374A",
           "200": "var(--background)", //#20212D
+          "300": "#20212D",
         },
         white: {
           "100": "var(--foreground)", //#F1FBFF

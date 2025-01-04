@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #20212D;
-  --foreground: #F1FBFF;
+  --background: #20212d;
+  --foreground: #f1fbff;
 }
 
 html {
@@ -26,9 +26,38 @@ h6 {
   font-family: var(--font-title-quattrocento-sans);
 }
 
+.fade-img-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, white 0%, transparent);
+  mask-image: linear-gradient(to bottom, white 0%, transparent);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.fade-img-top-bottom {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    white 40%,
+    white 60%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    white 40%,
+    white 60%,
+    transparent 100%
+  );
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
 @layer utilities {
   .flex-between {
     @apply flex justify-between items-center;
+  }
+
+  .link-hover {
+    @apply hover:text-white-200
   }
 
   .gradient-neptune {
