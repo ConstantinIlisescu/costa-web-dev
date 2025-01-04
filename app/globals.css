@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #20212D;
+  --foreground: #F1FBFF;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

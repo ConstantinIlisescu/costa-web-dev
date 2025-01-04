@@ -18,10 +18,10 @@ export default {
         gray: "#8F8F95",
         black: {
           "100": "#37374A",
-          "200": "#20212D",
+          "200": "var(--background)", //#20212D
         },
         white: {
-          "100": "#F1FBFF",
+          "100": "var(--foreground)", //#F1FBFF
           "200": "#D3E5ED",
         },
       },
