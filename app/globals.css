@@ -67,4 +67,20 @@ h6 {
   .hero-text-box-width {
     @apply min-w-36 sm:min-w-48 md:min-w-72;
   }
+
+  .screen-container {
+    @apply h-screen w-screen landscape:h-[500px] landscape:sm:h-screen;
+  }
+
+  .absolute-full-screen-image {
+    @apply absolute h-[100%] w-[100%] object-cover top-0 left-0 z-10;
+  }
+
+  .large-hero-text-size {
+    @apply text-4xl sm:text-5xl md:text-7xl;
+  }
+
+  .hero-text-size {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
 }
