@@ -24,7 +24,7 @@ const HomeProjects = () => {
               height={292}
               className="-translate-x-4"
             />
-            <div className="w-[180px] m-5 mt-14">
+            <div className="m-5 mt-14 w-fit">
               <Button
                 href={project.link}
                 text="View Live Website"

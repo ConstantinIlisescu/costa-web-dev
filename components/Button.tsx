@@ -18,7 +18,7 @@ const Button = ({
   return (
     <Link
       href={href}
-      className="w-44 relative group"
+      className="w-44 relative group "
       target={target}
       referrerPolicy={referrerPolicy}
     >
@@ -28,8 +28,8 @@ const Button = ({
       <Image
         src={imgPath}
         alt="button colorful border"
-        width={326}
-        height={77}
+        width={180}
+        height={35}
       />
     </Link>
   );
