@@ -5,11 +5,13 @@ import "./globals.css";
 const quattrocentoSans = Quattrocento_Sans({
   variable: "--font-title-quattrocento-sans",
   weight: "400",
+  subsets: ["latin"],
 });
 
 const mulish = Mulish({
   variable: "--font-mulish",
   weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
