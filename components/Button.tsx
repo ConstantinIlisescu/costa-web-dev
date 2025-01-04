@@ -23,7 +23,9 @@ const Button = ({
       referrerPolicy={referrerPolicy}
     >
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <h5 className="gradient-neptune group-hover:text-orange">{text}</h5>
+        <h5 className="gradient-neptune group-hover:text-orange min-w-[180px]">
+          {text}
+        </h5>
       </div>
       <Image
         src={imgPath}
