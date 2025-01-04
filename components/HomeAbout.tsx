@@ -43,7 +43,7 @@ const HomeAbout = () => {
               <span className="gradient-neptune">business growth</span>.
             </p>
           </div>
-          <Button href="#how" text="FIND HOW" />
+          <Button href="#steps" text="FIND HOW" />
         </div>
       </div>
     </section>
