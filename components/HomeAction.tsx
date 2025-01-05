@@ -15,7 +15,7 @@ const HomeAction = () => {
       <SectionOverlay />
       <div className="absolute inset-0 z-30 flex items-center justify-center ">
         <div className="flex flex-col items-center justify-center md:items-start  gap-14">
-          <div className="flex flex-col md:flex-row items-center justify-center x gap-5">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-5">
             <h2 className="section-header">Your Vision</h2>
             <Image
               src="/code-logo.png"
@@ -27,7 +27,7 @@ const HomeAction = () => {
               My code
             </h2>
           </div>
-          <p className="max-w-sm section-paragraph">
+          <p className="paragraph-width section-paragraph">
             I&apos;m passionate about empowering small businesses thrive in the
             digital age. My goal is to help you unlock your potential, connect
             with your audience, and grow in a rapidly evolving digital

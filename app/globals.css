@@ -64,7 +64,7 @@ h6 {
   }
 
   .screen-container {
-    @apply h-screen w-screen landscape:h-[500px] landscape:sm:h-screen;
+    @apply min-h-screen w-screen landscape:min-h-[500px] landscape:sm:min-h-screen;
   }
 
   .absolute-full-screen-image {
@@ -89,6 +89,10 @@ h6 {
 
   .section-paragraph {
     @apply text-lg md:text-xl;
+  }
+
+  .paragraph-width {
+    @apply w-[384px] md:w-[672px];
   }
 }
 

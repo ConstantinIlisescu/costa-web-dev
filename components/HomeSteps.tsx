@@ -26,11 +26,7 @@ const HomeSteps = () => {
             <h2 className="section-header">Collaboration steps</h2>
           </div>
 
-          <Accordion
-            type="single"
-            collapsible
-            className="w-[80vw] md:w-[600px]"
-          >
+          <Accordion type="single" collapsible className="paragraph-width">
             {STEPS.map((step, index) => (
               <AccordionItem
                 value={`item-${index}`}
