@@ -36,10 +36,10 @@ const HomeSteps = () => {
                 value={`item-${index}`}
                 key={`accordion-item-${index}`}
               >
-                <AccordionTrigger className="gradient-neptune text-lg md:text-2xl">
+                <AccordionTrigger className="section-subheader">
                   {step.title}
                 </AccordionTrigger>
-                <AccordionContent className="md:text-lg">
+                <AccordionContent className="section-paragraph">
                   {step.description}
                 </AccordionContent>
               </AccordionItem>

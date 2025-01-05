@@ -27,7 +27,7 @@ const HomeAction = () => {
               My code
             </h2>
           </div>
-          <p className="max-w-sm">
+          <p className="max-w-sm section-paragraph">
             I&apos;m passionate about empowering small businesses thrive in the
             digital age. My goal is to help you unlock your potential, connect
             with your audience, and grow in a rapidly evolving digital

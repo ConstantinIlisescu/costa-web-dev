@@ -18,7 +18,7 @@ const HomeAbout = () => {
           <div className="flex flex-col md:flex-row items-center justify-center x gap-5">
             <h2 className="section-header">About me</h2>
           </div>
-          <div className="max-w-sm flex flex-col gap-3">
+          <div className="max-w-sm flex flex-col gap-3 section-paragraph">
             <p>
               I&apos;m a <span className="text-neptune">web developer</span>{" "}
               passionate about empowering small businesses to thrive in the
