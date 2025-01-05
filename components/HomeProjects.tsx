@@ -24,7 +24,7 @@ const HomeProjects = () => {
               height={292}
               className="-translate-x-4"
             />
-            <div className="m-5 mt-14 w-fit">
+            <div className="flex flex-col items-start ms-5 my-14">
               <Button
                 href={project.link}
                 text="View Live Website"
