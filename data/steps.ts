@@ -1,13 +1,13 @@
 export const STEPS: { title: string; description: string }[] = [
   {
-    title: "1. Free initial discussion, no commitment required",
+    title: "1. Free initial discussion",
     description:
-      "Reach out through the Contact Me section on my website to discuss your vision. We’ll cover your goals, the services I offer, hosting options, maintenance tips, and a breakdown of costs. This initial session is entirely",
+      "Reach out through the below Contact Me section to discuss your vision. We’ll cover your goals, the services I offer, website hosting options, maintenance tips, and a breakdown of costs. This initial session is entirely free, with no commitment required.",
   },
   {
     title: "2. Prototype & Design Approval",
     description:
-      "I’ll create a preliminary design tailored to your needs, and we'll have a few discussions to refine it. Once the design is approved, I begin development. At this stage, a 50% deposit is required to move forward",
+      "I’ll create a preliminary design tailored to your needs, and we'll have a few discussions to refine it. Once the design is approved, I begin development. At this stage, a 50% pay deposit is required to move forward.",
   },
   {
     title: "3. Live Progress Updates",

@@ -33,7 +33,7 @@ const HomeAction = () => {
             with your audience, and grow in a rapidly evolving digital
             landscape.
           </p>
-          <Button href="#projects" text="FIND HOW" />
+          <Button href="#steps" text="FIND HOW" />
         </div>
       </div>
     </section>
