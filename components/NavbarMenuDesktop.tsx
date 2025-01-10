@@ -7,8 +7,8 @@ import NavbarMenuButton from "./NavbarMenuButton";
 const NavbarMenuDesktop = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="relative">
-      <div className="absolute right-0 top-0">
+    <div className="hidden relative md:block h-10">
+      <div className="absolute right-0 top-0 flex items-center justify-center h-full">
         <NavbarMenuButton menuOpen={menuOpen} menuSetter={setMenuOpen} />
       </div>
       <div

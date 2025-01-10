@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import NavbarMenuDesktop from "./NavbarMenuDesktop";
+import NavbarMenuMobile from "./NavbarMenuMobile";
 
 const Navbar = () => {
   return (
@@ -8,6 +9,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center">
         <Logo />
         <NavbarMenuDesktop />
+        <NavbarMenuMobile />
       </nav>
     </header>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import NavbarMenuButtonIcon from "./NavbarMenuButtonIcon";
 
 const NavbarMenuButton = ({
   menuOpen,
@@ -32,26 +33,8 @@ const NavbarMenuButton = ({
   }, [menuOpen, menuSetter]);
 
   return (
-    <button
-      aria-label="menu"
-      className="flex flex-col gap-2 justify-center items-end"
-      onClick={toggleMenu}
-    >
-      <div
-        className={`w-20 h-1 bg-orange rounded-xl transition-all duration-500 ease-in-out ${
-          menuOpen ? "w-96 opacity-0" : "delay-300"
-        }`}
-      ></div>
-      <div
-        className={`w-16 h-1 bg-orange rounded-xl transition-all duration-500 ease-in-out ${
-          menuOpen ? "w-80 opacity-0" : "delay-300"
-        }`}
-      ></div>
-      <div
-        className={`w-10 h-1 bg-orange rounded-xl transition-all duration-500 ease-in-out ${
-          menuOpen ? "w-72 opacity-0" : "delay-300"
-        }`}
-      ></div>
+    <button aria-label="menu" onClick={toggleMenu}>
+      <NavbarMenuButtonIcon menuOpen={menuOpen} />
     </button>
   );
 };
