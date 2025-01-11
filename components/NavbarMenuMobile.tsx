@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import {
   Sheet,
   SheetContent,
@@ -8,21 +6,25 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
-import NavbarLinks from "./NavbarLinks";
-import NavbarMenuButtonIcon from "./NavbarMenuButtonIcon";
+import NavbarLinks from "./NavbarMenuLinks";
 
-const NavbarMenuMobile = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const closeMenu = () => setMenuOpen(false);
+const NavbarMenuMobile = ({
+  menuOpen,
+  setMenuOpen,
+}: {
+  menuOpen: boolean;
+  setMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
+  const closeMenu = () => setMenuOpen(false);
   return (
-    <div className="flex items-center md:hidden py-1">
+    <div className="flex items-center py-1">
       <Sheet open={menuOpen} onOpenChange={(isOpen) => setMenuOpen(isOpen)}>
         <SheetTrigger>
-          <NavbarMenuButtonIcon menuOpen={menuOpen} />
+          <span className="hidden">Close</span>
         </SheetTrigger>
         <SheetContent className="border-none bg-black-100/20 backdrop-blur-2xl">
           <SheetHeader className="pt-20">
-            <SheetTitle className="hidden">
+            <SheetTitle className="sr-only">
               Click the links below to navigate to a specific section
             </SheetTitle>
             <NavbarLinks parentCallBack={closeMenu} />
