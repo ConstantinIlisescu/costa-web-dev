@@ -21,8 +21,8 @@ const HomeAbout = () => {
           <div className="paragraph-width flex flex-col gap-3 section-paragraph">
             <p>
               I&apos;m a <span className="text-neptune">web developer</span>{" "}
-              passionate about empowering small businesses to thrive in the
-              digital age.
+              passionate about empowering businesses to thrive in the digital
+              age.
             </p>
             <p>
               My goal is to help you unlock your potential, connect with your

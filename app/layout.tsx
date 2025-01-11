@@ -15,9 +15,9 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: "CostaWebDev",
+  title: "costaWebDev",
   description:
-    "Web developer passionate about empowering small businesses thrive in the digital age.",
+    "Web developer passionate about empowering businesses thrive in the digital age.",
 };
 
 export default function RootLayout({
